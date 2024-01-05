@@ -1,4 +1,4 @@
-package com.javad;
+package com.javad.model;
 
 import lombok.Getter;
 

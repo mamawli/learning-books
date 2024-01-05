@@ -1,4 +1,8 @@
-import com.javad.*;
+import com.javad.model.Client;
+import com.javad.model.Template;
+import com.javad.service.MailServer;
+import com.javad.service.Messenger;
+import com.javad.service.TemplateEngine;
 import org.junit.Test;
 import org.mockito.Mockito;
 

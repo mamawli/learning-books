@@ -1,4 +1,4 @@
-import com.javad.Car;
+import com.javad.service.Car;
 import org.junit.Test;
 import org.mockito.Mockito;
 

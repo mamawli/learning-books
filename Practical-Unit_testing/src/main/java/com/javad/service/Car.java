@@ -1,4 +1,4 @@
-package com.javad;
+package com.javad.service;
 
 public interface Car {
 

@@ -1,4 +1,4 @@
-import com.javad.FootBallTeam;
+import com.javad.model.FootBallTeam;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,4 +1,4 @@
-import com.javad.Money;
+import com.javad.model.Money;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.junit.Test;
