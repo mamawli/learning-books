@@ -3,6 +3,7 @@ import org.junit.Test;
 import org.mockito.Mockito;
 
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 public class MockitoTest {
@@ -32,5 +33,15 @@ public class MockitoTest {
         when(car.needFuel()).thenThrow(RuntimeException.class);
 
         car.needFuel();
+    }
+
+    @Test
+    public void usingVerifyMockito(){
+
+        car.needFuel();
+        car.toDestination("Piroozi Street");
+
+        verify(car).needFuel();
+        verify(car).toDestination("Piroozi Street");
     }
 }

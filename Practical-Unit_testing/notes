@@ -1,0 +1,6 @@
+using test doubles instead of creating real object :
+Use Mockito.mock(Car.class) when you want to isolate the code under test, control the behavior of dependencies, and verify interactions with those dependencies.
+Use an actual object of the Car class when you want to test the real behavior of the Car class and its interactions with other classes.
+
+
+
