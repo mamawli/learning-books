@@ -36,12 +36,15 @@ public class MockitoTest {
     }
 
     @Test
-    public void usingVerifyMockito(){
+    public void usingVerifyMockito() {
 
         car.needFuel();
         car.toDestination("Piroozi Street");
 
         verify(car).needFuel();
         verify(car).toDestination("Piroozi Street");
+
+        //note : when you verify this will fail because you want this but not invoked
+        verify(car).getEngineTemperature();
     }
 }
