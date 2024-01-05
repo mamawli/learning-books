@@ -2,5 +2,7 @@ using test doubles instead of creating real object :
 Use Mockito.mock(Car.class) when you want to isolate the code under test, control the behavior of dependencies, and verify interactions with those dependencies.
 Use an actual object of the Car class when you want to test the real behavior of the Car class and its interactions with other classes.
 
-
-
+types of test doubles |-- dummy -> imagine you have a customer and list of address for that and you wanna add one address for customer and assert size of the list so you create a dummy customer object just for adding address for that .
+                      |-- stub -> when some object creates and you just need the return of that we use stub
+                      |-- spy -> is to verify that the functionality have worked
+                      |-- mock -> not covered yet.
