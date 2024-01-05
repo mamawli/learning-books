@@ -1,4 +1,4 @@
-import com.javad.model.Client;
+import com.javad.model.ClientModel;
 import com.javad.model.Template;
 import com.javad.service.MailServer;
 import com.javad.service.Messenger;
@@ -20,7 +20,7 @@ public class MessengerTest {
         var templateEngine = Mockito.mock(TemplateEngine.class);
         var mailServer = Mockito.mock(MailServer.class);
         var messenger = new Messenger(templateEngine, mailServer);
-        var client = Mockito.mock(Client.class);
+        var client = Mockito.mock(ClientModel.class);
 
         when(templateEngine.prepareMessage(template, client)).thenReturn(MSG_CONTENT);
         when(client.getEmail()).thenReturn(CLI_EMAIL);
