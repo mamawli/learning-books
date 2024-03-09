@@ -4,8 +4,8 @@ Welcome to the Developer's Bookshelf! This repository is my personal space where
 
 📘 Current Reads
 
-Practical JUnit Testing: A dive into effective unit testing techniques and practices.
-Head First Design Patterns: Exploring design patterns with a hands-on, visually rich approach.
+-- Practical JUnit Testing: A dive into effective unit testing techniques and practices.
+-- Head First Design Patterns: Exploring design patterns with a hands-on, visually rich approach.
 📖 On My Bookshelf (Upcoming Reads)
 
 This section will be updated with new books as I continue my learning journey. Stay tuned!
