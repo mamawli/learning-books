@@ -1,0 +1,17 @@
+This pattern is used for when you want to add new functionality without changing existing code ;
+
+in this pattern you have you interface behaviour .
+in our example you have a data source .
+one of implementation is fileDataSource that read and write string data in a file.
+now you want to handle encode and decode for this data .
+so you can call the method of read and write and handle encryption .
+after a time you want to handle compression .
+if your pattern is not good you have too change existing code to change this code and handle compression.
+imagine that for a data source you dont want to handle encryption .
+so you have to add booleans that if encryption is enable do encryption and other else .
+so this code is shit =) ;
+you can create a wrapper or decorator that have and instance of your interface and implements methods of that with
+    its logics.
+for example in write data of encryption decorator you encode data and write .
+and for the usage of that you can create new instance of a decorator with decorators that you want and do the magic -_-;
+
