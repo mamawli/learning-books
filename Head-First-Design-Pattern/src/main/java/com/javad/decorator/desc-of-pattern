@@ -15,3 +15,4 @@ you can create a wrapper or decorator that have and instance of your interface a
 for example in write data of encryption decorator you encode data and write .
 and for the usage of that you can create new instance of a decorator with decorators that you want and do the magic -_-;
 
+at all decorator patten attach additional responsibilities dynamically.
