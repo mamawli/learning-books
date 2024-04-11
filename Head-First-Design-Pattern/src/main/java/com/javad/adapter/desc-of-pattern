@@ -1,0 +1,8 @@
+Adapter pattern :
+    A good example of adapter is that when you buy a laptop that made in US the charger Adapter have faze and null
+    But when you wanna use this in britain the outlets have faze and null and earth . so you need an Adapter to
+    change U.S interface to british interface ;
+
+The Adapter Pattern converts the interface of a class into another interface the clients expect.
+ Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
+
