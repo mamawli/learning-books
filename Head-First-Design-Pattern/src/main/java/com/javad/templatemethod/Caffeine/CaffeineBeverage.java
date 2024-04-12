@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public abstract class CaffeineBeverage {
 
+    private static final Scanner scanner = new Scanner(System.in);
+
     public void prepare() {
         boilWater();
         brew();
@@ -13,7 +15,6 @@ public abstract class CaffeineBeverage {
     }
 
     public String getUserInput(){
-        var scanner = new Scanner(System.in);
         return scanner.next();
     }
     public void boilWater() {
