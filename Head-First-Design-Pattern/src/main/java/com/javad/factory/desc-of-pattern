@@ -1,0 +1,11 @@
+this pattern is for creating objects .
+image you have 2 types of burgers -> veg and beef
+when user requests for burger based on the request you will create you beef or veg burger obj.
+for improvement you can create use abstraction for burger and implement 2 types of burger -> vegBurger and BeefBurger
+then you just create burger object and set null to it and based on the request type
+you will add the correct implementation in burger obj.
+but imagine you wanna add chicken burger too .
+you have to add more code in if and else if s .....
+so this reject open/closed principal .
+for improve this issue you will create a class named burgerFactory then this class is responsible to create
+ correct implementation of burger and so you just fix open/close issue and add Single Responsibility principal too .
